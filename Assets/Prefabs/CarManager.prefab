@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1690801466031870189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1690801466031870191}
+  - component: {fileID: 1690801466031870190}
+  - component: {fileID: 1690801466031870177}
+  - component: {fileID: 1690801466031870176}
+  - component: {fileID: 1690801466031870179}
+  m_Layer: 0
+  m_Name: CarManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1690801466031870191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690801466031870189}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1690801466031870190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690801466031870189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b41bed43b807cce4b837df8e30b7b593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameCamera: {fileID: 0}
+  gameCameraPosGarage: {fileID: 0}
+  gameCameraPosAuction: {fileID: 0}
+  gameCameraPosRaceView: {fileID: 0}
+  leftText: {fileID: 0}
+  middleText: {fileID: 0}
+  rightText: {fileID: 0}
+  pointsScript: {fileID: 1690801466031870177}
+--- !u!114 &1690801466031870177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690801466031870189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7add17a029bf1354fb7dbf6b13f74437, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  pointsGUIHUD: {fileID: 0}
+  pointsGUIRaceManager: {fileID: 0}
+  CyberSecurityScore: 2
+--- !u!114 &1690801466031870176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690801466031870189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b060c5e84bf4b4f96f7ce2518a453b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carStats:
+    cars: []
+    jsonFile: {fileID: 0}
+  trackStats:
+    tracks: []
+    jsonFile: {fileID: 0}
+  trackNr: 0
+  WinScreen: {fileID: 0}
+  LoseScreen: {fileID: 0}
+  TiedScreen: {fileID: 0}
+  CarSelection: {fileID: 0}
+  CloseRaceScreen: {fileID: 0}
+  WinAnimationImage: {fileID: 0}
+  LoseAnimationImage: {fileID: 0}
+  TiedAnimationImage: {fileID: 0}
+  WinSpriteArray:
+  - {fileID: 398547759, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: 563593084, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: -238326239, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: -569413668, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: -902249365, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: -893323232, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: 344039567, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: 218536843, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: -1006814192, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: 2107422307, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: -1048699753, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: -528307057, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: 2048003713, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: -1182099984, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: 461723628, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: 2141088434, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: -1119304165, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: -1388236036, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: 450300963, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: 535454839, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: 1713740433, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: -1790570240, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  - {fileID: -1104893848, guid: 39be791e8b4fc9a44b0698cca32a9256, type: 3}
+  LoseSpriteArray:
+  - {fileID: -878622481, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: -689389301, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: -39970807, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: 219980320, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: -1783150290, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: 1593933740, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: -145342224, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: 694914079, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: 606869165, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: -647902447, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: 1599190755, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: 111081195, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: 1496009030, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: 1815921739, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: 959382663, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: 511874630, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: 1601105877, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: 1201704167, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: -1563733332, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: 748954659, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: 199097235, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: 9795920, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  - {fileID: -1282899902, guid: 3204ca597379a314abd003990a491e44, type: 3}
+  TiedSpriteArray:
+  - {fileID: -1171700936, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: 115021753, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: 1000827110, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: -257863835, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: 539931130, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: -1874086291, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: -48701241, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: -2072092331, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: -1661423410, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: 430581364, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: -793719641, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: 912549545, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: -365601924, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: -302805440, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: 83790147, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: -1802533324, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: 1773165512, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: 207197837, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: -265305767, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: -916446991, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: -109918213, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: 1801068868, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  - {fileID: -98463951, guid: e5add81404e0bfe4280cb4475491e0fd, type: 3}
+  m_Speed: 0.04
+  m_IndexSprite: 0
+--- !u!114 &1690801466031870179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690801466031870189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd0e07d1981aa94ea2c2409140a3441, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HUD: {fileID: 0}
+  RaceManagerMenu: {fileID: 0}
+  SettingsMenu: {fileID: 0}
