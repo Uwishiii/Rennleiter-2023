@@ -1,0 +1,17 @@
+    {
+      "cars":
+      [
+        {
+		  "carModel": "BMW M3 e30",
+          "baseSpeed": 235,
+          "baseAcceleration": 15,
+		  "baseHandling": 45
+        },
+        {
+          "carModel": "Porsche 911 GT3",
+          "baseSpeed": 302,
+          "baseAcceleration": 22,
+		  "baseAcceleration": 50
+        }
+      ]
+    }
